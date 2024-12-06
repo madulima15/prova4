@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a5d4d7;
+    color: #ffffff;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #c9a5d7c4;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #ffffff;
+    
+}
+
+header nav a {
+    color: #f2e2b8;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+
+.left-section {
+    max-width: 50%;
+}
+
+.left-section h1 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    color: #f2e2b8;
+    margin-top: 10px;
+}
+
+.left-section p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #f2e2b8;
+    color: #d7b8a5;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #d7a57a;
+}
+
+.right-section {
+    max-width: 40%;
+    position: relative;
+}
+
+.right-section img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+main p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+body.sobre {
+    background-color:  #a5d4d7;
+}
+
+body.sobre h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+body.sobre p {
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+
+body.sobre .img {
+    display: flex;
+    width: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    justify-content:baseline;
+}
+body.sobre .container{
+    margin-top: 30px;
+    text-align: center;
+
+}
+body.header nav a {
+    color: #f2e2b8;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+body.sobre header nav a:hover {
+    text-decoration: underline;
+}
+body.cardapio body {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9a5d7c4;
+    color: #333;
+}
+
+body.cardapio .left-section.menu-container {
+    text-align: left;
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: none;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+body.cardapio h1 {
+    text-align: left;
+    font-size: 2.2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+body.cardapio .left-section .menu-item {
+    text-align: left;
+    margin:  0;
+    padding: 0;
+    
+    
+}
+
+body.cardapio .left-section .menu-item h2 {
+    text-align: left;
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+body.cardapio .left-section.menu-item p {
+    text-align: left;
+    margin: 0;
+    font-size: 1em;
+    color: #555;
+}
+
+body.cardapio .left-section .price {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 300;
+    color: black;
+}
+body .header nav a {
+    color: #f2e2b8;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+body.header nav a:hover {
+    text-decoration: underline;
+}
+body.cardapio .left-section img{
+    text-align: left;
+    display: block;
+    margin : 0;
+    width: 100%;
+    max-width: 300px;
+
+
+}
+
